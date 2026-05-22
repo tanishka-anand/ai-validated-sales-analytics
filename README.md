@@ -106,5 +106,5 @@ MySQL Workbench | ChatGPT | Power BI Desktop
 
 ## Dataset
 
-Source: Kaggle — Sample Sales Data by kyanyoga
+Source: Kaggle — [Sample Sales Data by kyanyoga](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)
 Records: 2,823 | Years: 2003-2005 | Countries: 19
