@@ -1,0 +1,40 @@
+-- ================================================
+-- FILE: 01_create_table.sql
+-- PURPOSE: Create database and sales table
+-- ================================================
+
+CREATE DATABASE sales_analysis;
+
+USE sales_analysis;
+
+CREATE TABLE sales (
+    ORDERNUMBER INT,
+    QUANTITYORDERED INT,
+    PRICEEACH DECIMAL(10,2),
+    ORDERLINENUMBER INT,
+    SALES DECIMAL(10,2),
+    ORDERDATE VARCHAR(50),
+    STATUS VARCHAR(50),
+    QTR_ID INT,
+    MONTH_ID INT,
+    YEAR_ID INT,
+    PRODUCTLINE VARCHAR(50),
+    MSRP INT,
+    PRODUCTCODE VARCHAR(50),
+    CUSTOMERNAME VARCHAR(100),
+    PHONE VARCHAR(50),
+    ADDRESSLINE1 VARCHAR(100),
+    ADDRESSLINE2 VARCHAR(100),
+    CITY VARCHAR(50),
+    STATE VARCHAR(50),
+    POSTALCODE VARCHAR(50),
+    COUNTRY VARCHAR(50),
+    TERRITORY VARCHAR(50),
+    CONTACTLASTNAME VARCHAR(50),
+    CONTACTFIRSTNAME VARCHAR(50),
+    DEALSIZE VARCHAR(20)
+);
+
+-- Verify import
+SELECT COUNT(*) FROM sales;
+-- Expected: 2823
