@@ -136,6 +136,7 @@ across all years — factually wrong per SQL validation.
 ---
 
 ## 📁 Repository Structure
+```
 sales-analysis-project/
 ├── README.md
 ├── sql/
@@ -164,6 +165,7 @@ sales-analysis-project/
 │   └── page3_customer_geography.png
 └── ai_analysis/
 └── chatgpt_prompts_and_responses.md
+```
 ---
 
 ## ⚠️ Project Limitations
