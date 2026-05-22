@@ -1,5 +1,5 @@
 # AI-Powered Sales Performance Analysis
-## MySQL + ChatGPT + Power BI |
+## MySQL + ChatGPT + Power BI
 
 **This project tests whether AI-generated business insights 
 can be trusted without validation — and quantifies exactly 
