@@ -137,7 +137,7 @@ across all years — factually wrong per SQL validation.
 
 ## 📁 Repository Structure
 ```
-sales-analysis-project/
+ai-validated-sales-analytics/
 ├── README.md
 ├── sql/
 │   ├── 01_create_table.sql
